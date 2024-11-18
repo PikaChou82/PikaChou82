@@ -18,4 +18,4 @@ list(taxis_df['pickup_borough'].unique()))
 
 st.markdown(f"<p style='color:darkblue; font-family:Arial; font-size:20px;'>Tu as choisi {arrondissement}</p>", unsafe_allow_html=True)
 
-st.image(str(arrondissement)+".png")
+st.image("C:\Users\sauss\OneDrive\Saussaye Family\Audrey\Data_Analyst\Exercices\Week_9\API\"+str(arrondissement)+".png")
