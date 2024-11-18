@@ -18,6 +18,8 @@ list(taxis_df['pickup_borough'].unique()))
 
 st.markdown(f"<p style='color:darkblue; font-family:Arial; font-size:20px;'>Tu as choisi {arrondissement}</p>", unsafe_allow_html=True)
 
-current_dir = os.path.dirname(__file__)
-image_path = os.path.join(current_dir,  str(arrondissement) + ".png")
-st.image(image_path)
+chemin = "C:/Users/sauss/OneDrive/Saussaye Family/Audrey/Data_Analyst/Exercices/Week_9/API/"
+fichier = f"{arrondissement}.png"
+
+chemin_complet = chemin + fichier
+st.image(chemin_complet)
