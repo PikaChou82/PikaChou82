@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import plotly.express as px
 import seaborn as sns
 
 st.set_page_config(page_title="Mon appikachou 3", page_icon=":bar_chart:")
