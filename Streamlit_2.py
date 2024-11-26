@@ -63,3 +63,16 @@ plt.ylabel(Axe_Y, size = 10, c = '#5D615B', fontweight = 'bold')
 plt.title(Titre, color = "darkblue", fontweight = 'bold', size = 20)
 st.pyplot(fig)
 
+
+matrix = selected_dataset[[x,y]].corr()
+
+afficher_graphe = st.checkbox('Afficher la matrice de corrélation ?')
+
+if afficher_graphe:
+    fig, ax = plt.subplots(1,1, figsize=(12 ,5))
+    plt.subplots_adjust(bottom=0.15)
+    plt.subplots_adjust(top=0.85)
+    plt.subplots_adjust(hspace=0.5, wspace=0.1)
+    sns.heatmap(data= matrix, annot = True, cmap = 'coolwarm')
+    plt.title("Corrélations", color = "darkblue", fontweight = 'bold', size = 20)
+    st.pyplot(fig)
