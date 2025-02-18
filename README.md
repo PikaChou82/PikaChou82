@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @PikaChou82
 - 👀 I’m interested in music, food (Chicken is life), travelling
 - 🌱 I’m currently learning my future job as data analyst
-- 💞️ I have a wonderful husband and two amazing guys, one cat and two dogs (even if the firts is now in the stars ![StarredRepositoryYellow
+- 💞️ I have a wonderful husband and two amazing guys, one cat and two dogs (even if the first is now in the stars ![StarredRepositoryYellow
 ](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/StarredRepositoryYellow.svg))
 - 📫 How to reach me audrey.saussaye@gmail.com
 - 😄 Pronouns: PikaChou
